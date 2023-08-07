@@ -14,6 +14,8 @@ class BlogPost extends Model
     protected $fillable = [
         'title',
         'category_id',
-        
+        'description',
+        'content',
+        'image',
     ];
 }
